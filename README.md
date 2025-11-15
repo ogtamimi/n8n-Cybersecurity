@@ -54,6 +54,11 @@ apt install <tool>
 ``` bash
 apt install -y ffuf
 ```
+## How to build 
+just use this command
+``` bash
+docker push ogtamimi/n8nkali:v2
+```
 
 ## ❤️ Summary
 
