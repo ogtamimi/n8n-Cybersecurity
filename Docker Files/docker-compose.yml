@@ -1,0 +1,9 @@
+services:
+  n8n-kali:
+    build: .
+    container_name: n8n-kali
+    restart: always
+    ports:
+      - "5678:5678"
+    volumes:
+      - ./n8n_data:/home/n8n/.n8n
