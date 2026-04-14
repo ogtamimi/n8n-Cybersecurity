@@ -32,7 +32,7 @@ you can install additional tools anytime.
 -   httpx
 -   SecLists (wordlists) 
 
-https://github.com/ogtamimi/n8n-Cybersecurity/blob/main/Assets/Screenshot%202026-01-13%20122827.png
+![alt text](https://github.com/ogtamimi/n8n-Cybersecurity/blob/main/Assets/Screenshot%202026-01-13%20122827.png)
 
 ## 🚀 How to Run
 
