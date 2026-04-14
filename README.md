@@ -4,13 +4,13 @@
  
 ![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) ![Docker](https://img.shields.io/badge/Docker-Hub-blue?logo=docker)
  
-**N8NKALI** is a ready-to-use Docker environment that combines **Kali Linux** with the **n8n automation platform**, giving you a visual workflow engine with full access to penetration testing and Web-CTF tools — no setup required.
+**N8NKALI** is a ready-to-use Docker environment that combines **Kali Linux** with the **n8n automation platform**, giving you a visual workflow engine with full access to penetration testing and Web-CTF tools no setup required.
  
 > ⚠️ **For authorized security testing, CTF competitions, and educational use only.**
  
 ---
  
-## ⚡ Quick Start
+## Quick Start
  
 Pull and run the container with a single command:
  
@@ -28,7 +28,7 @@ That's it. n8n is running with full access to all preinstalled pentest tools.
  
 ---
  
-## 🖥️ Accessing the Terminal
+## Accessing the Terminal
  
 Drop into a root shell inside the container at any time:
  
@@ -39,36 +39,38 @@ docker exec -it n8nkali bash
 From here you can run any tool manually, inspect output, or test commands before adding them to a workflow.
  
 ---
+![Execute Command Node](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-05%20060604.png)
  
-## 🔁 Running Tools via n8n Workflows
+
+## Running Tools via n8n Workflows
  
 The main power of N8NKALI is chaining tools together visually. Use the **Execute Command** node in n8n to run any tool.
  
-### Example — Directory Bruteforce with Gobuster
+### Example Directory Bruteforce with Gobuster
  
 ```bash
 gobuster dir -u http://target.com -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
  
-### Example — SQL Injection Scan with SQLMap
+### Example SQL Injection Scan with SQLMap
  
 ```bash
 sqlmap -u "http://target.com/page?id=1" --batch --level=3
 ```
  
-### Example — Web Recon with Nikto
+### Example Web Recon with Nikto
  
 ```bash
 nikto -h http://target.com
 ```
  
-### Example — Technology Fingerprinting with WhatWeb
+### Example Technology Fingerprinting with WhatWeb
  
 ```bash
 whatweb http://target.com
 ```
  
-### Example — HTTP Probing with httpx
+### Example HTTP Probing with httpx
  
 ```bash
 echo "target.com" | httpx -status-code -title -tech-detect
@@ -77,8 +79,9 @@ echo "target.com" | httpx -status-code -title -tech-detect
 Paste any of these into an **Execute Command** node in n8n, connect it to HTTP Request or Webhook nodes, and build full automated recon or CTF-solving pipelines.
  
 ---
- 
-## 🧰 Preinstalled Tools
+ ![n8n Workflow View](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-05%20055847.png)
+
+## Preinstalled Tools
  
 | Category | Tools |
 |---|---|
@@ -91,7 +94,7 @@ Paste any of these into an **Execute Command** node in n8n, connect it to HTTP R
  
 ---
  
-## ➕ Installing Additional Tools
+## Installing Additional Tools
  
 ### From the container shell:
  
@@ -109,27 +112,23 @@ This lets you install tools on-the-fly as part of a workflow, without ever leavi
  
 ---
  
-## 📸 Screenshots
  
-![n8n Workflow View](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-05%20055847.png)
-![Execute Command Node](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-05%20060604.png)
 ![CTF Workflow Example](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-13%20122827.png)
  
 ---
  
-## 🔗 Links
+## Links
  
-- 🐳 [Docker Hub](https://hub.docker.com/repository/docker/ogtamimi/n8nkali/general)
-- 📁 [GitHub Repository](https://github.com/ogtamimi/n8n-Cybersecurity)
-- 📂 [Prebuilt Workflows](https://github.com/ogtamimi/n8n-Cybersecurity/tree/main/Workflows)
+- [Docker Hub](https://hub.docker.com/repository/docker/ogtamimi/n8nkali/general)
+- [Prebuilt Workflows](https://github.com/ogtamimi/n8n-Cybersecurity/tree/main/Workflows)
  
 ---
  
-## 📄 License
+## License
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
  
-Licensed under the **MIT License** — free to use, modify, and distribute with proper credit.
+Licensed under the **MIT License** free to use, modify, and distribute with proper credit.
  
 ---
  
