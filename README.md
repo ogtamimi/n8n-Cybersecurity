@@ -15,22 +15,24 @@ you can install additional tools anytime.
 
 ## 🧰 Included Tools
 
--   sudo\
--   wget\
--   curl\
--   git\
--   nano\
--   python3 + pip\
--   nodejs + npm\
--   sqlmap\
--   dirsearch\
--   gobuster\
--   wfuzz\
--   nikto\
--   whatweb\
--   httpie\
--   httpx\
--   SecLists (wordlists)
+-   sudo
+-   wget
+-   curl
+-   git
+-   nano
+-   python3 + pip
+-   nodejs + npm
+-   sqlmap
+-   dirsearch
+-   gobuster
+-   wfuzz
+-   nikto
+-   whatweb
+-   httpie
+-   httpx
+-   SecLists (wordlists) 
+
+https://github.com/ogtamimi/n8n-Cybersecurity/blob/main/Assets/Screenshot%202026-01-13%20122827.png
 
 ## 🚀 How to Run
 
