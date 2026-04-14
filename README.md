@@ -32,7 +32,7 @@ you can install additional tools anytime.
 -   httpx
 -   SecLists (wordlists) 
 
-![alt text](https://github.com/ogtamimi/n8n-Cybersecurity/blob/main/Assets/Screenshot%202026-01-13%20122827.png)
+![alt text](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-05%20055847.png)
 
 ## 🚀 How to Run
 
@@ -75,6 +75,8 @@ You are free to use, modify, distribute, and integrate the code as long as prope
 
 For full details, see the [LICENSE](./LICENSE) file.
 
+![alt text](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-05%20060604.png)
+![alt text](https://github.com/ogtamimi/n8n-Cybersecurity/blob/a62bd4ff8e3aa026880b602aa6c01745ce5ce7ab/Assets/Screenshot%202026-01-13%20122827.png)
 ## ❤️ Summary
 
 **N8NKALI = Kali Linux + n8n + Root Access + Web-CTF Tools**\
